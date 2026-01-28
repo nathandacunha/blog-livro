@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+:root {
+    --cor-principal: #eeee;
+    --cor-segundaria: #88A2AA;
+}
+
+/* responsavidade para computadores */
+
+/* responsavidade para tables */
+
+
+/* navbar menu para mobile */
+.navbar-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: red;
+    height: 55px;
+}
+
+/* icon do navbar */
+
+.navbar-mobile #icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 25px;
+    margin-right: 50px;
+    cursor: pointer;
+    
+}
+
+.navbar-mobile .aba-inicio h1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+
+    color: black;   
+}
