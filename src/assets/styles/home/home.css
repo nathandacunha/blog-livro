@@ -9,8 +9,9 @@ body {
 }
 
 :root {
-    --cor-principal: #eeee;
-    --cor-segundaria: #88A2AA;
+    --cor-principal: #9193c1;
+    --cor-segundaria: #003459;
+    --cor-fonte: #eeee;
 }
 
 /* responsavidade para computadores */
@@ -24,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: red;
+    background-color: var(--cor-segundaria);
     height: 55px;
 }
 
@@ -39,6 +40,7 @@ body {
     margin-right: 50px;
     cursor: pointer;
     
+    color: var(--cor-fonte);
 }
 
 .navbar-mobile .aba-inicio h1 a {
@@ -50,5 +52,5 @@ body {
     text-decoration: none;
     font-weight: 400;
 
-    color: black;   
+    color: var(--cor-fonte);   
 }
