@@ -58,9 +58,10 @@ body {
     color: var(--cor-fonte);   
 }
 
-/* container */
+/* containers */
 
-.container {
+/* container de rascunho */
+.container-vermelho {
     background-color: red;
     margin: 30px;
 
@@ -69,8 +70,17 @@ body {
     align-items: center;
 }
 
+/* container que será ser utilizado realmente */
+.container-padrao {
+    margin: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Boas vindas*/
-.container #boas-vindas h1{
+.container-vermelho #boas-vindas h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,3 +132,6 @@ body {
 
     padding: 25px;
 }
+
+/* tag a do texto "breve sinopse" */
+
