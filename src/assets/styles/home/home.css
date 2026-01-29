@@ -96,3 +96,16 @@ body {
 .navegacao.ativo {
     display: block;
 }
+
+/* breve sinopse - Titulo */
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--cor-fonte);
+    font-weight: var(--fonte-intensidade);
+    font-size: 25px;
+
+    margin: 45px;
+}
