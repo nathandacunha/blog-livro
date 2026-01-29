@@ -109,3 +109,16 @@ body {
 
     margin: 45px;
 }
+
+/* breve sinopse texto */
+#text-breve-sinopse h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--cor-fonte);
+    font-weight: var(--fonte-intensidade);
+    font-size: 25px;
+
+    padding: 25px;
+}
