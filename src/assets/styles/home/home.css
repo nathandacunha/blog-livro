@@ -12,6 +12,7 @@ body {
     --cor-principal: #9193c1;
     --cor-segundaria: #003459;
     --cor-fonte: #eeee;
+    --fonte-intensidade: 400;
 }
 
 /* responsavidade para computadores */
@@ -66,4 +67,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Boas vindas*/
+.container #boas-vindas h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: var(--fonte-intensidade);
+    color: var(--cor-fonte);
+}
+
+.ola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 7px;
+
 }
