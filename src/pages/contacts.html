@@ -34,7 +34,7 @@
     <!-- Seção do formulario -->
      <section>
         <main>
-            <form action="" method="post">
+            <form name = "formularioContatos" onsubmit="return validateForm()" novalidate>
                 <label for="">Nome: </label>
                 <input type="text" name="campo-name" id="campo-name" required>
                 
@@ -54,5 +54,6 @@
         </main>
      </section>
     <script src="/src/assets/scripts/menuHamburguer.js"></script>
+    <script src="/src/assets/scripts/validacaoFormulario.js"></script>
 </body>
 </html>
